@@ -1,11 +1,11 @@
 document.addEventListener("DOMContentLoaded", init())
 
 function init (){
-    if (window.location.pathname.includes('index.html')) {
-        toggleMenu()
-        progressbar()
-        typingMethod()
-    }
+   
+    toggleMenu()
+    progressbar()
+    typingMethod()
+    
 }
 
 function toggleMenu() {
