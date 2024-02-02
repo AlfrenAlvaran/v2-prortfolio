@@ -1,7 +1,4 @@
-document.addEventListener("DOMContentLoaded", function () {
-   
-    init()
-})
+document.addEventListener("DOMContentLoaded", init())
 
 function init (){
     if (window.location.pathname.includes('index.html')) {
