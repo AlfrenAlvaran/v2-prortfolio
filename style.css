@@ -213,7 +213,9 @@ header .follow a:hover {
 .about .row-2 .skills .progress {
     padding: 1rem 0;
 }
-
+.about .row-2 .skills .progress i {
+    color: var(--i);
+}
 .about .row-2 .skills .progress h3 {
     display: flex;
     justify-content: space-between;
